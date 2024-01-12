@@ -7,5 +7,3 @@ name_of_student = 'Art Vandelay' #replace the name inside the quotation marks wi
 print("Congratulations to", name_of_student, "for executing your first .py file in APS106!")
 
 # Look below (in the "Run" tab) for the output
-
-print(5 + 2 * 4)
