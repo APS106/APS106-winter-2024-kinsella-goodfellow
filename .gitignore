@@ -173,3 +173,4 @@ ENV/
 # files
 ~$*
 lecture_metrics.xlsx
+.mp4
