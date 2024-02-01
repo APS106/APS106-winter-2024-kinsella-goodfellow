@@ -1,18 +1,17 @@
 import random
 
-def continue_walking(turtle):
+def continue_walking(turtle, step_size):
     """
-    (turtle) --> bool
-    Will determine if the turtle has hit the left wall or if it is ok to continue walking.
+    (turtle, int) --> bool
+    Will determine if the turtle can take another step without hitting the wall.
 
     Example:
         at_wall(turtle)
         >> True
     """
-    if turtle.get_state()['points'][-1]['x'] == 380:
-        return False
-    else:
+    if turtle.get_state()['points'][-1]['x'] + step_size <= 380:
         return True
+    return False
 
 
 def rpsls_winner(input1, input2):
