@@ -1,4 +1,4 @@
-#'''
+'''
 import turtle
 lebron = turtle.Turtle()
 
@@ -12,7 +12,7 @@ lebron.forward(50)
 lebron.left(90)
 
 turtle.done()
-#'''
+'''
 
 '''
 import turtle
@@ -61,7 +61,7 @@ turtle.done()
 '''
 
 
-'''
+#'''
 import turtle
 
 lebron = turtle.Turtle()
@@ -80,4 +80,4 @@ print(abs(lebron.pos()))
     
 lebron.end_fill()
 turtle.done()
-'''
+#'''
