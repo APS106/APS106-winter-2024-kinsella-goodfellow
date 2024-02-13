@@ -15,3 +15,4 @@ def plot_scores(scores):
     ax.xaxis.set_tick_params(labelsize=24)
     ax.yaxis.set_tick_params(labelsize=16)
     ax.set_ylabel('Scores', fontsize=24)
+    ax.set_xlabel('')
